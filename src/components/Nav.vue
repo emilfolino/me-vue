@@ -22,13 +22,13 @@ ul {
 
 li {
     display: inline;
-    margin-right: 2em;
+    margin-right: 1em;
 }
 
 li a {
     text-decoration: none;
     color: white;
-    font-size: 1.6em;
+    font-size: 1.4em;
 }
 
 li a:hover {

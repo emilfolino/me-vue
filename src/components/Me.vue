@@ -25,6 +25,7 @@ export default {
   },
   methods: {
     getMe() {
+      let that = this;
       fetch("https://me-api.emilfolino.se")
       .then(function(response) {
           return response.json();
@@ -32,7 +33,7 @@ export default {
       .then(function(result) {
           // eslint-disable-next-line
           console.log(result);
-          this.text = result.description;
+          that.text = result.description;
       });
     }
   }
