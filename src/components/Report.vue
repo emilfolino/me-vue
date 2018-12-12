@@ -2,7 +2,7 @@
 <main>
     <Nav />
     <h1>{{ $route.params.kmom }}</h1>
-    <div class="question" v-for="question in questions">
+    <div class="question" v-for="question in questions" :key="question.key">
       <p><strong>{{ question.question }}</strong></p>
       <p>{{ question.answer }}</p>
     </div>
