@@ -35,8 +35,6 @@ export default {
           return response.json();
       })
       .then(function(result) {
-          // eslint-disable-next-line
-          console.log(result);
           that.questions = result.data.map((question, index) => {
             return {
               key: index,

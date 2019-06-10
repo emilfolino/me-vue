@@ -31,8 +31,6 @@ export default {
           return response.json();
       })
       .then(function(result) {
-          // eslint-disable-next-line
-          console.log(result);
           that.text = result.description;
       });
     }
