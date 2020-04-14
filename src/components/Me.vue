@@ -26,7 +26,7 @@ export default {
   methods: {
     getMe() {
       let that = this;
-      fetch("https://me-api.jsramverk.me")
+      fetch("https://me-api.jsramverk.se")
       .then(function(response) {
           return response.json();
       })
